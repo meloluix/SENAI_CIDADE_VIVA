@@ -1,0 +1,187 @@
+
+/* FONTES DA CIDADE VIVA */
+/* Importa as fontes usadas no site */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    color: #183e50;
+    background-color: #f0f7f4;
+}
+
+
+/* CABEÇALHO */
+
+/* nome loja e  menu */
+header {
+    background-color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Cidade Viva */
+header h1 {
+    color: #183e50;
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+
+
+/* MENU */
+
+/* links */
+nav a {
+    color: #183e50;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    color: #31b483;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+}
+
+
+/* SEÇÕES */
+
+section {
+    background-color: white;
+    padding: 35px;
+    margin: 25px 0;
+    border-radius: 14px;
+}
+
+section > p:first-child {
+    color: #31a77d;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* TÍTULOS */
+
+h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+/* PÁGINA INICIAL */
+
+.inicio {
+    background-color: #183e50;
+    color: white;
+    padding: 70px 45px;
+}
+
+.inicio > p:first-child {
+    color: #8ce0bd;
+}
+
+.inicio h2 {
+    font-size: 42px;
+    max-width: 550px;
+}
+
+
+/* BOTÕES */
+
+.botao {
+    display: inline-block;
+    background-color: #31b483;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #238b65;
+}
+
+
+/* GRADE DE CARTÕES */
+
+/* cartões lado a lado */
+.grade {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.cartao {
+    background-color: #f3f8f5;
+    padding: 22px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 170px;
+    margin-top: 10px;
+}
+
+.cartao a {
+    color: #238b65;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #183e50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* IMAGENS */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* dentro dos cartões */
+.cartao img {
+    width: 100%;
+    max-width: 260px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+/* página inicial */
+.inicio img {
+    width: 100%;
+    max-width: 450px;
+    height: 220px;
+    object-fit: cover;
+    margin: 15px auto;
+}
+
+/* outras seções */
+section img {
+    max-width: 350px;
+    max-height: 200px;
+    object-fit: cover;
+}
